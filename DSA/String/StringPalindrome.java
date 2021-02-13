@@ -1,6 +1,6 @@
 package DSA.String;
 import java.util.Scanner;
-public class OneDemo {
+public class StringPalindrome {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         String string = scan.next();
