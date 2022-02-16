@@ -10,6 +10,7 @@ couldn't do much, just explained the various branches of Software Engineering to
 interviewbit DS interview questions will go for some days may be, I'll try to finish it by this weekend. Today is Tuesday.
 <br>
 #### 16th Feb 2022 (Day 3) <br>
+<p>
 DS is how data and the relationship amongst different data is represented, that aids in how efficiently various functions or operations or algorithms can be applied.
 <br>
 two types of data structures:
@@ -30,3 +31,5 @@ File Structure: Representation of data into secondary or auxiliary memory say an
 Storage Structure: In this type, data is stored in the main memory i.e RAM, and is deleted once the function that uses this data gets completely executed.
 The difference is that storage structure has data stored in the memory of the computer system, whereas file structure has the data stored in the auxiliary memory.
 <br>
+  <https://www.markdownguide.org/hacks/#indent-tab>
+  </p>
