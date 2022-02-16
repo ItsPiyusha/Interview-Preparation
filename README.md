@@ -25,7 +25,7 @@ The implementation in procedural languages like C is done with the help of struc
 <br>
 In an objected oriented language like Java, data structures are implemented by using classes and objects.
 <br>
-##### 1.Can you explain the difference between file structure and storage structure?
+<strong> 1.Can you explain the difference between file structure and storage structure? </strong>
 <br>
 File Structure: Representation of data into secondary or auxiliary memory say any device such as hard disk or pen drives that stores data which remains intact until manually deleted is known as a file structure representation.
 Storage Structure: In this type, data is stored in the main memory i.e RAM, and is deleted once the function that uses this data gets completely executed.
