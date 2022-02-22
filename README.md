@@ -37,7 +37,8 @@ The difference is that storage structure has data stored in the memory of the co
 #### 17th Feb 2022 (Day 4) <br>
  Best book to start with Python- 
 <https://automatetheboringstuff.com/>
-  Al Sweigart also has a YouTube channel and a course based on this book!
+  Al Sweigart also has a YouTube channel and a course based on this book!<br>
+  
   
   
   
