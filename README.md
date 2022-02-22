@@ -33,3 +33,21 @@ The difference is that storage structure has data stored in the memory of the co
 <br>
   <https://www.markdownguide.org/hacks/#indent-tab>
   </p>
+
+#### 17th Feb 2022 (Day 4) <br>
+ Best book to start with Python- 
+<https://automatetheboringstuff.com/>
+  Al Sweigart also has a YouTube channel and a course based on this book!
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
