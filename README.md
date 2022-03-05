@@ -39,6 +39,10 @@ The difference is that storage structure has data stored in the memory of the co
 <https://automatetheboringstuff.com/>
   Al Sweigart also has a YouTube channel and a course based on this book!<br>
   
+#### 5th March 2022 (Day 1)<br>
+ Google Tech Dev Guide
+  Stage 1 - <https://techdevguide.withgoogle.com/paths/foundational/?programming_languages=python> <br>
+  
   
   
   
