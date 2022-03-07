@@ -43,7 +43,8 @@ The difference is that storage structure has data stored in the memory of the co
  Google Tech Dev Guide
   Stage 1 - <https://techdevguide.withgoogle.com/paths/foundational/?programming_languages=python> <br>
   
-  
+#### 7th March 2022 (Day 3)<br>
+  Automating excel reports with <https://openpyxl.readthedocs.io/en/stable/tutorial.html>
   
   
   
