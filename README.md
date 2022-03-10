@@ -51,7 +51,7 @@ The difference is that storage structure has data stored in the memory of the co
   SOLID principle in Object Oriented Programming <https://www.digitalocean.com/community/conceptual_articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design>
   <br>
   
-  
+ <https://www.cyberciti.biz/faq/howto-save-ouput-of-linux-unix-command-to-file/>
   
   
   
