@@ -61,9 +61,8 @@ The difference is that storage structure has data stored in the memory of the co
     Additionally, get in the details of sql(creating table from excel) and python(pandas).<br>
     Tip: Read SOPs and queries.<br>
     Prepaid reports-> inserting data from csv to teradata table<br>
-    import os<https://docs.python.org/3/library/os.html>
-    
-    
+    import os<https://docs.python.org/3/library/os.html><br>
+    import sys<https://docs.python.org/3/library/sys.html><br>
   
   
   
