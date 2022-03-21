@@ -54,6 +54,16 @@ The difference is that storage structure has data stored in the memory of the co
  <https://www.cyberciti.biz/faq/howto-save-ouput-of-linux-unix-command-to-file/> <br>
   
   <https://www.baeldung.com/linux/delete-lines-containing-string-from-file> <br>
+    
+ #### 21th March 2022 (Day 1)<br> 
+    1. Process flow <br>
+    2. Minutes of Meeting<br>
+    Additionally, get in the details of sql(creating table from excel) and python(pandas).<br>
+    Tip: Read SOPs and queries.<br>
+    Prepaid reports-> inserting data from csv to teradata table<br>
+    import os<https://docs.python.org/3/library/os.html>
+    
+    
   
   
   
