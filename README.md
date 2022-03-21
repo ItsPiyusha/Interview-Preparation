@@ -63,8 +63,7 @@ The difference is that storage structure has data stored in the memory of the co
     Prepaid reports-> inserting data from csv to teradata table<br>
     import os<https://docs.python.org/3/library/os.html><br>
     import sys<https://docs.python.org/3/library/sys.html><br>
-  
-  
+    import teradataml<https://pypi.org/project/teradataml/><br>
   
   
   
