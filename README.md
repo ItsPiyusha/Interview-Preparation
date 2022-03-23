@@ -64,9 +64,13 @@ The difference is that storage structure has data stored in the memory of the co
     import os<https://docs.python.org/3/library/os.html><br>
     import sys<https://docs.python.org/3/library/sys.html><br>
     import teradataml<https://pypi.org/project/teradataml/><br>
-  
-  
-  
-  
+   #### 23rd March 2022 (Day 2)<br> 
+    to_sql in prepaid report-> inserting data from csv to teradata table<br>
+  <https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_sql.html><br>
+    create_context()<br>
+    <https://docs.teradata.com/r/Teradata-Python-Package-User-Guide/February-2020/Context-to-Teradata-Vantage><br>
+    read_csv()<br> <https://pandas.pydata.org/docs/reference/api/pandas.read_csv.html><br>
+      DataFrame.columns --> The column labels of the DataFrame.<br>
+      from teradataml.dataframe.copy_to import copy_to_sql<br> <https://docs.teradata.com/r/Teradata-Python-Package-User-Guide/February-2020/teradataml-General-Functions/Save-DataFrames-to-Vantage/copy_to_sql-Method>
   
   
