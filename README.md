@@ -73,4 +73,6 @@ The difference is that storage structure has data stored in the memory of the co
       DataFrame.columns --> The column labels of the DataFrame.<br>
       from teradataml.dataframe.copy_to import copy_to_sql<br> <https://docs.teradata.com/r/Teradata-Python-Package-User-Guide/February-2020/teradataml-General-Functions/Save-DataFrames-to-Vantage/copy_to_sql-Method>
   
-  
+  #### 10 Jan 2023 <br>
+[14 coding patterns for interviews](https://www.teamblind.com/blog/index.php/2022/06/27/top-leetcode-patterns-coding-interview-questions/)<br>
+[Kunal on MLH and all](https://youtu.be/loCLu8Iq1dQ)
