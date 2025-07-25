@@ -32,7 +32,7 @@ This repository contains solutions to 20 common pattern printing problems, cover
 ## 📚 Patterns Covered
 1. Right-angled triangle
 code I wrote first:
-#include <bits/stdc++.h>
+```#include <bits/stdc++.h>
 using namespace std;
 void pattern1(int n){
     for( int i = 0; i<n; i++){
@@ -45,7 +45,7 @@ void pattern1(int n){
 int main() {
 	// your code goes here
     pattern1();
-}
+}```
 ###Mistakes
 1. ; after cout<<"*"
 2. Loop should run j <= i for correct pattern (0 to i)
@@ -65,12 +65,13 @@ The inner loop was printing fewer stars than needed (j < i instead of j <= i).
 
 No cout << "\n" after each row.
 
-| i starts at | j starts at | j condition | Stars per row |
-| ----------- | ----------- | ----------- | ------------- |
-| 0           | 0           | `j <= i`    | `i + 1` stars |
-| 0           | 0           | `j < i`     | `i` stars     |
-| 1           | 0           | `j < i`     | `i` stars ✅   |
-| 1           | 1           | `j <= i`    | `i` stars ✅   |
+| i starts at | i condition | j starts at | j condition | Stars per row     |
+|-------------|-------------|-------------|-------------|-------------------|
+| 0           | `i < n`     | 0           | `j <= i`    | `i + 1` stars     |
+| 0           | `i < n`     | 0           | `j < i`     | `i` stars         |
+| 1           | `i <= n`    | 0           | `j < i`     | `i - 1` stars     |
+| 1           | `i <= n`    | 1           | `j <= i`    | `i - 1` stars ✅  |
+
 
 2. Inverted triangle
 3. Pyramid
