@@ -32,7 +32,8 @@ This repository contains solutions to 20 common pattern printing problems, cover
 ## 📚 Patterns Covered
 1. Right-angled triangle
 code I wrote first:
-<pre>```#include <bits/stdc++.h>
+```
+#include <bits/stdc++.h>
 using namespace std;
 void pattern1(int n){
     for( int i = 0; i<n; i++){
@@ -45,7 +46,8 @@ void pattern1(int n){
 int main() {
 	// your code goes here
     pattern1();
-}```</pre>
+}
+```
 ###Mistakes
 1. ; after cout<<"*"
 2. Loop should run j <= i for correct pattern (0 to i)
@@ -90,3 +92,4 @@ Use any C++ compiler or online editor like [Coding Ninjas](https://www.codingnin
 
 ## 📂 Folder Structure
 DSA-> Basics-> patterns
+
