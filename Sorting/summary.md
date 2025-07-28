@@ -47,3 +47,52 @@
 
 - **Stable Sort**: Maintains relative order of equal elements.
 - **In-Place**: Uses constant extra space (O(1)), modifies input array directly.
+
+# Beginner Level – Basics & Implementation
+| Problem                  | Concept                    | Platform         |
+| ------------------------ | -------------------------- | ---------------- |
+| Sort an Array            | Basic sorting (any method) | LeetCode \[#912] |
+| Bubble Sort              | Manual implementation      | GFG              |
+| Insertion Sort           | Manual implementation      | GFG              |
+| Selection Sort           | Manual implementation      | GFG              |
+| Check if Array is Sorted | Observation                | GFG              |
+
+
+# Intermediate – Custom & Efficient Sorts
+| Problem                   | Concept                               | Platform         |
+| ------------------------- | ------------------------------------- | ---------------- |
+| Merge Sort on Array       | Recursion + merge logic               | GFG              |
+| Quick Sort                | Partition logic                       | GFG              |
+| Count Inversions in Array | Merge Sort variant                    | GFG / LeetCode   |
+| Sort Colors               | Dutch National Flag (3-way partition) | LeetCode \[#75]  |
+| Meeting Rooms II          | Custom sorting with intervals         | LeetCode \[#253] |
+| Minimum Platforms         | Sort + Greedy                         | GFG              |
+
+
+# Advanced – Sorting + Extra Logic
+| Problem                      | Concept            | Platform          |
+| ---------------------------- | ------------------ | ----------------- |
+| Largest Number               | Custom comparator  | LeetCode \[#179]  |
+| Merge Intervals              | Sort + Merge logic | LeetCode \[#56]   |
+| Relative Sort Array          | Counting + custom  | LeetCode \[#1122] |
+| Top K Frequent Elements      | Heap + Map + Sort  | LeetCode \[#347]  |
+| Sort Characters by Frequency | Map + Sort         | LeetCode \[#451]  |
+
+
+# Expert – Non-Comparison Sorts & Applications
+| Problem                         | Concept                     | Platform         |
+| ------------------------------- | --------------------------- | ---------------- |
+| Radix Sort (LSD/MSD)            | Digits-based sorting        | GFG              |
+| Count Sort                      | Fixed-range elements        | GFG              |
+| Bucket Sort on Floats           | Range division              | GFG              |
+| Find All Anagrams               | Sorting with sliding window | LeetCode \[#438] |
+| Minimum Number of Swaps to Sort | Cycles in graph + sorting   | GFG              |
+
+
+# Bonus Challenges
+| Problem                       | Concept             | Platform          |
+| ----------------------------- | ------------------- | ----------------- |
+| K-th Largest Element in Array | Heap + Quickselect  | LeetCode \[#215]  |
+| Median in a Stream            | Two Heaps           | LeetCode \[#295]  |
+| Sort a Linked List            | Merge Sort on LL    | LeetCode \[#148]  |
+| Max Number of Events Attended | Sort + Greedy + Set | LeetCode \[#1353] |
