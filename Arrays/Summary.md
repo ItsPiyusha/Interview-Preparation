@@ -8,7 +8,7 @@ A structured guide to learning arrays through patterns. Links included for hands
 
 | Problem | Link |
 |--------|------|
-| Print array elements | [Print array](https://www.geeksforgeeks.org/c-program-print-elements-array/) |
+| Print array elements | [Print array](https://www.geeksforgeeks.org/problems/print-elements-of-array4910/1) |
 | Find max/min in array | [Max & Min](https://leetcode.com/problems/maximum-product-difference-between-two-pairs/) |
 | Sum of array elements | [Array Sum](https://practice.geeksforgeeks.org/problems/sum-of-array-elements2502/1) |
 | Search an element | [Linear Search](https://practice.geeksforgeeks.org/problems/searching-a-number0324/1) |
