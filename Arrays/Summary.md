@@ -18,6 +18,11 @@ A structured guide to learning arrays through patterns. Links included for hands
 
 ---
 
+✅ General Rule:
+When two variables depend on each other’s previous values,
+update the one that holds the more significant value first,
+so you don’t overwrite the reference you still need.
+
 ## ✅ Level 2: Medium Problems / Basic Logic Building
 
 | Problem | Link |
