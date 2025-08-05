@@ -16,12 +16,15 @@ A structured guide to learning arrays through patterns. Links included for hands
 | Rotate array by 1 | [Rotate by 1](https://practice.geeksforgeeks.org/problems/cyclically-rotate-an-array-by-one2614/1) |
 | Check if sorted | [Is Array Sorted](https://practice.geeksforgeeks.org/problems/check-if-an-array-is-sorted0701/1) |
 
----
+
 
 ✅ General Rule:
 When two variables depend on each other’s previous values,
 update the one that holds the more significant value first,
 so you don’t overwrite the reference you still need.
+
+
+---
 
 ## ✅ Level 2: Medium Problems / Basic Logic Building
 
