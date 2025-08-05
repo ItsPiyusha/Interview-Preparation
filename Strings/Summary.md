@@ -34,7 +34,7 @@
 - [Replace Words](https://leetcode.com/problems/replace-words/)
 
 
-
+### 🔁 How .count() Works in Different STL Containers:
 | STL Container        | `.count(x)` returns | Notes                                            |
 | -------------------- | ------------------- | ------------------------------------------------ |
 | `set<T>`             | `0` or `1`          | Stores unique keys only                          |
@@ -45,6 +45,8 @@
 | `multimap<K,V>`      | `>= 0`              | Same logic                                       |
 
 
+
+###🔍 .count() vs .find() in STL Containers
 | Feature            | `.count(x)`                                        | `.find(x)`                                        |
 | ------------------ | -------------------------------------------------- | ------------------------------------------------- |
 | ✅ Purpose          | Checks if element exists (returns count)           | Returns **iterator** to element if found          |
@@ -53,7 +55,10 @@
 | ⚡ Time Complexity  | O(1) avg for `unordered_*`, O(log n) for `set/map` | Same as `.count()`                                |
 | 🧽 Code Simplicity | Simpler for condition checks                       | More control (useful for modifying)               |
 
-
+  
+    
+      
+      
 💬 In Interviews: How to Explain
 "I use .count() when I just need to check if a character has already been seen.
 It’s fast and clear. If I need to modify or delete the element, I use .find() to get the iterator."
