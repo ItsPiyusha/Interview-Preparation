@@ -33,3 +33,13 @@
 - [Implement Trie](https://leetcode.com/problems/implement-trie-prefix-tree/)
 - [Replace Words](https://leetcode.com/problems/replace-words/)
 
+
+
+| STL Container        | `.count(x)` returns | Notes                                            |
+| -------------------- | ------------------- | ------------------------------------------------ |
+| `set<T>`             | `0` or `1`          | Stores unique keys only                          |
+| `unordered_set<T>`   | `0` or `1`          | Same as `set` but faster (hash-based)            |
+| `map<K, V>`          | `0` or `1`          | Checks if key `K` exists                         |
+| `unordered_map<K,V>` | `0` or `1`          | Same for hash maps                               |
+| `multiset<T>`        | `>= 0`              | Can return >1 because multiset allows duplicates |
+| `multimap<K,V>`      | `>= 0`              | Same logic                                       |
