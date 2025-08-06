@@ -62,3 +62,11 @@
 💬 In Interviews: How to Explain
 "I use .count() when I just need to check if a character has already been seen.
 It’s fast and clear. If I need to modify or delete the element, I use .find() to get the iterator."
+
+  
+    
+
+🧠 Interview Tip
+Don’t just say “I used two pointers.”
+Say:
+“Since the array is sorted and I needed a pair that satisfies a condition, I used a two-pointer approach — one from the start and one from the end — to minimize unnecessary checks.”
