@@ -96,11 +96,4 @@ ListNode* removeNthFromEnd(ListNode* head, int n) {
     return dummy.next;
 }
 ```
-🔗 LeetCode #19 – Remove Nth Node From End
-
-Save to markdown file again
-from pathlib import Path
-file_path_retry = "/mnt/data/Linked_List_Patterns_Summary.md"
-Path(file_path_retry).write_text(linked_list_md_retry)
-
-file_path_retry
+🔗 [LeetCode #19 – Remove Nth Node From End](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
