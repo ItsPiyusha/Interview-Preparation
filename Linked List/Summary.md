@@ -1,6 +1,3 @@
-# Retry saving the markdown file again
-
-linked_list_md_retry = """
 # 🧵 Linked List Patterns Summary
 
 ## 🔹 1. Reverse a Linked List
