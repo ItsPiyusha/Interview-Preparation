@@ -15,10 +15,14 @@ ListNode* reverseList(ListNode* head) {
     }
     return prev;
 }
+```  
+          
+
 🔗 [LeetCode #206 – Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
 
-🔹 2. Detect a Cycle in Linked List (Floyd’s Algorithm)
+## 🔹 2. Detect a Cycle in Linked List (Floyd’s Algorithm)
 
+```  
 bool hasCycle(ListNode* head) {
     ListNode *slow = head, *fast = head;
     while (fast && fast->next) {
@@ -28,10 +32,11 @@ bool hasCycle(ListNode* head) {
     }
     return false;
 }
+```
 🔗 [LeetCode #141 – Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
 
-🔹 3. Find Start of the Cycle
-
+## 🔹 3. Find Start of the Cycle
+```
 ListNode *detectCycle(ListNode *head) {
     ListNode *slow = head, *fast = head;
     while (fast && fast->next) {
@@ -48,10 +53,11 @@ ListNode *detectCycle(ListNode *head) {
     }
     return NULL;
 }
+```
 🔗 [LeetCode #142 – Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)
 
-🔹 4. Merge Two Sorted Linked Lists
-
+## 🔹 4. Merge Two Sorted Linked Lists
+```
 ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
     ListNode dummy(0);
     ListNode* tail = &dummy;
@@ -69,12 +75,13 @@ ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
     tail->next = l1 ? l1 : l2;
     return dummy.next;
 }
+```
 🔗 [LeetCode #21 – Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
 
-🔹 5. Remove N-th Node From End
+## 🔹 5. Remove N-th Node From End
 
 
-
+```
 ListNode* removeNthFromEnd(ListNode* head, int n) {
     ListNode dummy(0);
     dummy.next = head;
@@ -88,8 +95,8 @@ ListNode* removeNthFromEnd(ListNode* head, int n) {
     second->next = second->next->next;
     return dummy.next;
 }
+```
 🔗 LeetCode #19 – Remove Nth Node From End
-"""
 
 Save to markdown file again
 from pathlib import Path
