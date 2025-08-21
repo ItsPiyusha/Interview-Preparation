@@ -1,11 +1,13 @@
 # Heap: Data Structure Overview
 A **heap** is a complete binary tree where each node follows a specific ordering property:
 * **Max-heap:** Every parent node is ≥ its children.
-* **Min-heap:** Every parent node is ≤ its children.
+* **Min-heap:** Every parent node is ≤ its children.  
+
 Heaps are mainly used for:
 * Priority queues (efficient min/max extraction)
 * Sorting (heapsort)
-* Scheduling, event simulation, etc.
+* Scheduling, event simulation, etc.  
+
 **Time complexities:**
 * Insert: *O(log N)*
 * Extract min/max: *O(log N)*
