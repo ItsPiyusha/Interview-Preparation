@@ -41,6 +41,74 @@ int main() {
 **Explanation:**  
 * `priority_queue<int, vector<int>, greater<int>>` constructs a min-heap.  
 * `.push()` inserts, `.top()` gets the minimum, `.pop()` removes the minimum.
+  
+`priority_queue<int, vector<int>, greater<int>> minHeap` is a way to create a min-heap using the C++ STL. Here’s how it works:
+  
+
+**Syntax Breakdown**
+* priority_queue<T> by default creates a max-heap: the largest element is at the top.
+* The full template signature is:
+  
+`priority_queue<Type, Container, Compare>`
+  
+* Type: Data type (int here)
+
+* Container: Internal container (vector<int> by default)
+
+* Compare: Comparison functor; defaults to less<Type>, which creates a max-heap. 
+
+  
+**Making a Min-Heap** 
+  
+* To create a min-heap, you provide `greater<int>` as the third argument:  
+`priority_queue<int, vector<int>, greater<int>> minHeap;`
+* Now, the smallest element is always at the top
+
+  
+**What is** `greater<int>` **in C++?**
+`greater<int>` is called a **function object** ("functor") in C++—a special object that behaves like a function. It’s defined in the `<functional>` header.  
+Syntax
+  
+```cpp
+#include <functional>
+std::greater<int> comp;
+```
+You can use it in places where you need a comparison function—like algorithms (sort, priority_queue, etc.).  
+
+**What does it do?**  
+* greater<int>(a, b) returns true if a > b.
+* Used as a sorting or comparison rule: it prioritizes larger values before smaller ones.  
+
+**Example**  
+```cpp
+#include <algorithm>
+#include <vector>
+#include <functional>
+#include <iostream>
+using namespace std;
+
+int main() {
+    vector<int> v = {4, 1, 7, 3};
+    sort(v.begin(), v.end(), greater<int>());
+    // v is now {7, 4, 3, 1}
+    for (int x : v) cout << x << " ";
+}
+```
+
+Output: 7 4 3 1—sorted descending.
+
+  
+**Why are there parentheses?**  
+* `greater<int>` is a type; `greater<int>()` is an object.
+
+* No need for new—the STL automatically constructs the object to use for comparisons.
+  
+**Summary:**  
+
+* `greater<int>` is a functor for comparing if one value is greater than another.
+
+* Used in STL containers and algorithms to change how things are sorted or prioritized.
+
 
 **Custom Heap Implementation**
   
