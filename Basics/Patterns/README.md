@@ -100,7 +100,7 @@ int main() {
     pattern1();
 }
 ```
-###Mistakes
+### Mistakes
 1. ; after cout<<"*"
 2. Loop should run j <= i for correct pattern (0 to i)
 3. cout << "\n"; // move to next line after each row(after inner for loop.)
