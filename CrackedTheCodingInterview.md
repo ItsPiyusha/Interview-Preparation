@@ -1,4 +1,6 @@
-##### Arrays
+# Arrays
+
+## Problem: Two Sum
 ```cpp
 class Solution {
 public:
@@ -41,7 +43,7 @@ public:
     }
 };
 ```
-*how we return indices as a vector in cpp ->return {i, j}  
+* how we return indices as a vector in cpp ->return {i, j}  
 Hashmap is a general concept in computer science describing a data structure that stores key-value pairs for fast lookup, insertion, and deletion using a hash function.  
   
 Language Implementations  
@@ -75,9 +77,22 @@ because: Hashmap operations(get, insert, delete) are O(1) on average, but can de
 *unordered_map<int,int>   
 *.count() function  
 *notice correct placement of seen[nums[i]] = i;// This line should be outside the if block  
-  
-  
-*Problem-Solving Sequence  
+
+<div style="page-break-before: always"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+					   
+* Problem-Solving Sequence  
 Start with easy problems to build confidence, then progress to medium and hard. Recommended sequence:  
 
 Arrays & Strings:  
@@ -95,8 +110,9 @@ Group Anagrams, Top K Frequent Elements
 Dynamic Programming:  
 Climbing Stairs, Longest Increasing Subsequence  
   
-  
-Reverse string  
+<div style="page-break-before: always"></div>
+ 
+## Problem: Reverse string  
 1. Ask clarifying questions:  
 Output requirement:Should I reverse the string in place or return a new string?  
 Input type:What type of string (e.g., std::string, vector<char>, etc.)?Is it a mutable string (e.g., vector<char> in C++) or immutable (e.g., string in Java)?  
@@ -305,6 +321,10 @@ int main() {
     return 0;
 }
 ```
+
+<div style="page-break-before: always"></div>
+
+## Problem: Rotate Array
 ```cpp
 #include <iostream>
 #include <vector>
@@ -425,8 +445,12 @@ int main() {
     return 0;
 }
 ```
-##### Linked Lists
-# Problem: Merge Two Sorted Lists
+
+<div style="page-break-before: always"></div>
+
+
+# Linked Lists
+## Problem: Merge Two Sorted Lists
 Description:  
 Given two singly-linked lists where each list is already sorted in ascending order, merge them into a single sorted linked list. The merged list should also be in ascending order.  
 
@@ -587,6 +611,9 @@ Use class when you need encapsulation, private/protected members, or member func
 Summary  
 Use struct for plain data containers with public members (like ListNode).  
 Use class when you need encapsulation or more complex behavior.  
+
+<div style="page-break-before: always"></div>
+
   
 # OOP concepts, examples and explain in detail
   
@@ -705,7 +732,10 @@ public:
 };
 ```
 Shape provides an abstract interface, and Circle implements it.  
-# Problem: Reverse a Singly Linked List
+
+<div style="page-break-before: always"></div>
+
+## Problem: Reverse a Singly Linked List
 Description  
 Given the head of a singly linked list, reverse the list and return the new head.  
   
@@ -771,10 +801,12 @@ ListNode* reverseList(ListNode* head) {
     return prev;
 }
 ```
-This problem tests your understanding of pointer manipulation, linked list traversal, and edge case handling—core topics for technical interviews at Google and other top tech companies.  
+This problem tests your understanding of pointer manipulation, linked list traversal, and edge case handling—core topics for technical interviews at Google and other top tech companies. 
 
-##### Stacks and Queues
-# Problem: Valid Parentheses
+<div style="page-break-before: always"></div>
+
+# Stacks and Queues
+## Problem: Valid Parentheses
 Description  
 Given a string containing just the characters '(', ')', '{', '}', '[', and ']', determine if the input string is valid.  
   
@@ -835,7 +867,10 @@ Time: O(n), where n is the length of the string (one pass through input).
 Space: O(n), in the worst case (all opening brackets).  
 Sample Interview Explanation  
 “I’d use a stack to keep track of opening brackets. When I see a closing bracket, I’d check if the stack’s top is the matching opening bracket. If yes, I pop it; if not, or if the stack is empty, return false. At the end, if the stack is empty, the string is valid; otherwise, it’s not.”  
-# Problem: Min Stack
+
+<div style="page-break-before: always"></div>
+
+## Problem: Min Stack
 Description  
 Design a stack that, in addition to standard stack operations (push, pop, top), can also retrieve the minimum element in constant time (getMin).  
   
@@ -908,7 +943,10 @@ minStack.pop();
 minStack.top();      // Returns 0  
 minStack.getMin();   // Returns -2  
 
-# Binary Tree Inorder Traversal
+<div style="page-break-before: always"></div>
+
+# Trees
+## Problem: Binary Tree Inorder Traversal
 Problem Statement
 Given the root of a binary tree, return the inorder traversal of its nodes' values.
 
@@ -983,13 +1021,16 @@ Interview explanation:
 - “I’ll use a stack to keep track of nodes. First, I push left children onto the stack until I reach the leftmost node. Then, I process the node, and move to its right child. Repeat until the stack is empty and there are no more nodes.”
 - Time Complexity: O(n), since each node is pushed and popped once.
 - Space Complexity: O(n), for the stack in the worst case (skewed tree).
-What Interviewers Look For
-- Understanding of tree traversals.
+What Interviewers Look For Understanding of tree traversals.
 - Ability to convert recursion to iteration.
 - Clear explanation and handling of edge cases (like empty tree).
 - Awareness of time and space complexity.
 
-# Maximum Depth of Binary Tree
+
+<div style="page-break-before: always"></div>
+
+
+## Problem: Maximum Depth of Binary Tree
 Problem Statement
 Given the root of a binary tree, find its maximum depth.
 
@@ -1058,8 +1099,10 @@ Interview Tips
 - Mention time and space complexities.
 - Clearly describe how you traverse the tree and how you update the depth.
 
+<div style="page-break-before: always"></div>
+
 # Graphs
-### Number of islands
+## Problem: Number of islands
 Problem Statement
 Given a 2D grid map of '1's (land) and '0's (water), count the number of islands. An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water.
 ```
@@ -1080,7 +1123,7 @@ Input:
 
 Output: 3
 ```
-# Key Points for Interview
+* Key Points for Interview
 - Use DFS (or BFS) to traverse and mark visited land.
 - Iterate over each cell; if it’s '1', start a DFS/BFS and increment the island count.
 - Modify the grid in-place to mark visited cells, or use a separate visited matrix if you need to preserve the input.
@@ -1127,7 +1170,9 @@ public:
 ```
 Time complexity: O(m * n), where m and n are grid dimensions.
 
-#### Clone Graph
+<div style="page-break-before: always"></div>
+
+## Problem: Clone Graph
 
 Given a reference of a node in a connected undirected graph, return a deep copy (clone) of the graph. Each node in the graph contains a value (int val) and a list of its neighbors.  
 
@@ -1189,9 +1234,12 @@ int main() {
     return 0;
 }
 ```
-### Hash Tables
 
-## Group Anagrams
+<div style="page-break-before: always"></div>
+
+# Hash Tables
+
+## Problem: Group Anagrams
 Given an array of strings, group the anagrams together. You can return the answer in any order.
 ```
 Input:  ["eat", "tea", "tan", "ate", "nat", "bat"]
@@ -1227,7 +1275,9 @@ Key Points for Interviews
 - Sorting each word gives a unique key for its anagram group.
 - Time complexity is O(N * K log K), where N = number of strings, K = max length of a string (for sorting).
 
-## Top K frequent element
+<div style="page-break-before: always"></div>
+
+## Problem: Top K frequent element
 problem statement:   
 Given an integer array nums and an integer k, return the k most frequent elements.
 You may return the answer in any order.
@@ -1283,8 +1333,10 @@ int main() {
 }
 ```
 
+<div style="page-break-before: always"></div>
+
 # Dynamic Programming
-## climbing stairs
+## Problem: climbing stairs
 problem:
 You are climbing a staircase. It takes n steps to reach the top.
 Each time you can either climb 1 or 2 steps.
@@ -1328,10 +1380,39 @@ int main() {
     return 0;
 }
 ```
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
 
-## Longest Increasing Subsequence (LIS)
+int main() {
+    // Number for which Fibonacci is to be calculated
+    int n = 3;
+
+    // Create a dp array initialized with -1
+    vector<int> dp(n + 1, -1);
+
+    // Base cases
+    dp[0] = 1;
+    dp[1] = 1;
+
+    // Fill dp array using bottom-up dynamic programming
+    for (int i = 2; i <= n; i++) {
+        dp[i] = dp[i - 1] + dp[i - 2];
+    }
+
+    // Print the nth Fibonacci number
+    cout << dp[n];
+    return 0;
+}
+```
+
+<div style="page-break-before: always"></div>
+
+## Problem: Longest Increasing Subsequence (LIS)
 problem: Given an integer array nums, return the length of the longest strictly increasing subsequence.
-
+  
+A subsequence is a sequence derived from an array by deleting some or no elements without changing the order of the remaining elements. For example, [3, 6, 2, 7] is a subsequence of [0, 3, 1, 6, 2, 2, 7].
+  
 Solution Explanation
 This uses dynamic programming:
 - dp[i] stores the length of the LIS ending at index i.
@@ -1370,6 +1451,69 @@ int main() {
     Solution sol;
     vector<int> nums = {10, 9, 2, 5, 3, 7, 101, 18};
     cout << "Length of Longest Increasing Subsequence: " << sol.lengthOfLIS(nums) << endl;
+    return 0;
+}
+```
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+class Solution {
+private:
+    // Helper function to find the length of LIS
+    int func(int i, int prevInd, vector<int> &arr, vector<vector<int>> &dp) {
+        
+        // base case
+        if(i == arr.size() - 1) {
+            if(prevInd == -1 || arr[prevInd] < arr[i]) return 1;
+            return 0;
+        }
+        
+        // If subproblem is already calculated
+        if(dp[i][prevInd + 1] != -1) return dp[i][prevInd + 1];
+        
+        // Not Take case
+        int notTake = func(i+1, prevInd, arr, dp);
+        
+        int take = 0; // Take case
+        
+        // If no element is chosen till now
+        if(prevInd == -1)
+            take = func(i+1, i, arr, dp) + 1;
+        
+        /* Else the current element can be 
+        taken if it is strictly increasing */
+        else if(arr[i] > arr[prevInd])
+            take = func(i+1, i, arr, dp) + 1;
+        
+        // Return the maximum length obtained from both cases
+        return dp[i][prevInd + 1] = max(take, notTake);
+    }
+    
+public:
+    /* Function to find the longest increasing 
+    subsequence in the given array */
+    int LIS(vector<int>& nums) {
+        int n = nums.size();
+        
+        // DP array
+        vector<vector<int>> dp(n, vector<int>(n+1, -1));
+        
+        return func(0, -1, nums, dp);
+    }    
+};
+
+
+int main() {
+    vector<int> nums = {10, 9, 2, 5, 3, 7, 101, 18};
+    
+    // Creating an object of Solution class
+    Solution sol;
+    int lengthOfLIS = sol.LIS(nums);
+    
+    cout << "The length of the LIS for the given array is: " << lengthOfLIS << endl;
+    
     return 0;
 }
 ```
