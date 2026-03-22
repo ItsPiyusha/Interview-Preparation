@@ -127,7 +127,7 @@ for (int r = 0; r < n; r++) {
     // window [l..r] is valid here -> update answer
 }
 ```
-Common variant: “at most K” with frequency map:
+Common variant: “at most K” with frequency map: (Subarrays with At Most K Distinct Integers)
 ```cpp
 int atMostKDistinct(const vector<int>& a, int K) {
     unordered_map<int,int> cnt;
